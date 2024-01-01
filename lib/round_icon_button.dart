@@ -16,7 +16,7 @@ class RoundIconButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RawMaterialButton(
-      onPressed: onPressed,
+      onPressed: (){onPressed();},
       child: Icon(icon),
       constraints: BoxConstraints.tightFor(
           width: 50,height: 50
